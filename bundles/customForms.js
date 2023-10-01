@@ -1,4 +1,7 @@
 class CustomFormBundle{
+    constructor(){
+        
+    }
     newCustomForm(formName){
         let data = {};
 
