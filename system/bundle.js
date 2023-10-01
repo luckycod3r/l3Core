@@ -21,7 +21,7 @@
       constructor() {
         for (const ClassConstructor of classes) {
             const instance = new ClassConstructor();
-            // Копируем свойства и методы экземпляра в CombinedClass
+            
             Object.assign(this, instance);
           }
       }
