@@ -10,6 +10,10 @@ class CustomFormBundle{
 
         return data;
     }
+
+    getInputsFromCustomForm(token){
+        return document.querySelectorAll(`[data-name="${token}"]`);
+    }
 }
 
 module.exports = {CustomFormBundle}
